@@ -22,6 +22,7 @@ public class DictionaryPage extends PageObject {
     @FindBy(name="go")
     private WebElementFacade lookupButton;
 
+
     public void enter_keywordsModifyByNelly(String keyword) {
         searchTerms.type(keyword);
     }
